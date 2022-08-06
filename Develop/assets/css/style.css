@@ -61,15 +61,12 @@ p {
 }
 
 /* sets float parameters */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* sets float parameters */
+.float-left,
 .float-right {
     float: left;
     margin-right: 25px;
 }
+
 /* sets conent size, makes element a block, and sets margin */
 .content {
     width: 75%;
@@ -88,17 +85,9 @@ p {
     background-color: #2589bd;
 }
 /* sets margin size and color */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* sets margin size and color */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* sets margin size and color */
-.benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -108,33 +97,20 @@ p {
     text-align: center;
 }
 /* sets margin size and aligns text to the center */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* sets margin size and aligns text to the center */
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 /* sets element as a block and margin size */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* sets element as a block and margin size */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* sets element as a block and margin size */
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* sets margin size, padding, height, font type, background color, and text color */
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -163,32 +139,20 @@ p {
     color: #ffffff;
 }
 /* sets max height */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-/* sets max height */
-.online-reputation-management img {
-    max-height: 200px;
-}
-/* sets max height */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
+
 /* sets margin size and font size */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* sets margin size and font size */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* sets margin size and font type */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /* sets padding, targets floats, sets font type, and aligns text */
 .footer {
     padding: 30px;
